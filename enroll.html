@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .one
+        {
+            display: flex;
+            color: white;
+
+        }
+          .first
+        {
+            display: flex;
+            background-color: #2F8FD8;
+            justify-content: space-between;
+        }
+          .nav
+        {
+            margin-top: 23px;
+        
+        }
+        .one p{
+            font-weight: bold;
+            padding-left: 20px;
+        }
+           .nav a
+        {
+            color: white;
+        }
+          .im
+        {
+            height: 30px;
+            width: 30px;
+            padding-left: 40px;
+            padding-top: 10px;
+            
+        }
+          a{
+            padding-right: 20px;
+            text-decoration: none;
+        }
+        .one p{
+            font-weight: bold;
+        }
+        .co
+        {
+             background-color: #57acee;
+            text-align: center;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 2px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            font-weight: bold;
+            
+        }
+        .second
+        {
+            margin-left: 400px;
+            margin-top: 20px;
+            background-color:white;
+            width: 40%;
+            padding-top: 10px;
+            padding-bottom: 9px;
+            
+        
+        }
+        p
+        {
+            padding-top: 5px;
+        }
+        body
+        {
+              background-color:#f5f7fb;
+        }
+        legend
+        {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            
+            
+        }
+        fieldset
+        {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+       .in input
+        {
+            width: 415px;
+            display: flex;
+        
+        }
+        select
+        {
+            width: 415px;
+        }
+        .rad
+        {
+            display: flex;
+        }
+        .ch
+        {
+            margin-top: 10px;
+            margin-left: 14px;
+        }
+          .foot
+        {
+            background-color: #2F8FD8;
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            
+            color: white;
+        }
+        h4{
+            padding-left: 40px;
+        }
+        .complete-btn
+        {
+            width: 100%;
+            background: #2e86c1;
+            color: white;
+            padding: 12px;
+            border:none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="first">
+        <div class="one">
+          <h4>📖 LearnHub</h4>
+          </div> 
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="couses.html">Courses</a>
+            <a href="Enroll.html">Enroll</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="second">
+        <div class="co">
+            <p>Course Enrollment</p>
+            <small>Fill the basic information which below has mentioned</small>
+        </div>
+        <fieldset>
+            <legend>personal information</legend>
+            <div class="in">
+            Full Name:<br>
+            <input type="text" placeholder="Enter your full name"><br><br>
+
+            Email Address:<br>
+            <input type="email" placeholder="Enter your email"><br><br>
+
+            Phone No:<br>
+            <input type="text" placeholder="+91 12334567"><br><br>
+
+            Date of Birth:<br>
+            <input type="date" placeholder="dd-mm-yy"><br><br>
+                </div>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>Education Background</legend>
+
+            Highest qualifiaction:<br>
+            <select>
+                <option>select your qualifiaction</option>
+                <option>B.Com</option>
+                <option>B.C.A</option>
+                <option>B.B.A</option>
+            </select><br><br>
+            Do you have any programming experience?<br>
+            <div class="rad">
+                
+             <input type="radio" name="r">yes
+            <input type="radio" name="r">no
+             </div>       
+        </fieldset><br></br>
+
+        <fieldset>
+            <legend>Course Selection</legend>
+            Select Course:
+            <select>
+                <option>Choose a course</option>
+                <option>Html</option>
+                <option>CSS</option>
+                <option>Java Script</option>
+                <option>Python</option>
+
+            </select><br><br>
+            Why do you want to take this course?<br>
+            <textarea rows="4" cols="54"></textarea>
+        </fieldset>
+        <div class="ch">
+        <input type="checkbox" name="t">I agree the Terms & Conditions and Privacy Policy.
+        </div>
+        <button type="submit" class="complete-btn">Complete Enrollment</button>
+    </div>
+    <footer class="foot">
+            &copy 2024 LearnHub All right reserved.<br>
+            Email:<a href="info@learnhub.html">info@learnhub.com</a>|
+            Phone: +91 1234567890
+
+        </footer>
+
+</body>
+</html>
